@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment on Advanced jQuery</title>
+		<link rel="stylesheet" href="css/jquery-ui.css">
+		<link type="text/css" href="css/master.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1>Assignment on HTML5, CSS3, Javascript, jQuery</h1>
+		</header>
+		<section class="wrapper">
+			<section class="main_nav">
+				<ul class="tabs">
+					<li><a href="#tab1">Animation</a></li>
+					<li><a href="#tab2">Scrolling</a></li>
+					<li><a href="#tab3">Resizing</a></li>
+					<li><a href="#tab4">Image animation</a></li>
+					<li><a href="#tab5">Accordion Panel</a></li>
+					<li><a href="#tab6">Minify CSS</a></li>
+				</ul>
+			</section>
+			<!--
+			<div class="clr"></div>
+			-->
+			<section class="main_container">
+			
+				<!-- Image Rotation starts here -->
+			
+				<article id="tab1">
+					<div class="element_holder">
+						<img src="img/Earth.png" width="200" class="rotate_this"/>
+						<p>You rotated Earth by <span class="degrees">0</span> degrees</p>
+					</div>
+					<div class="control_holder">
+						<input class="rotate-control" type="range" step="1" min="0" max="360" value="0"/>
+					</div>
+				</article>
+			
+				<!-- Image Rotation endss here -->
+
+				<!-- Scrollable Content starts here -->
+			
+				<article id="tab2">
+					<img src="img/down.png" class="down-pointer"/>
+					<h1>User Experience</h1>
+					<hr />
+					<p>User Experience (UX) involves a person's behaviors, attitudes, and emotions about using a particular product, system or service.</p>
+					<p>User experience includes the practical, experiential, affective, meaningful and valuable aspects of human–computer interaction and product ownership. Additionally, it includes a person’s perceptions of system aspects such as utility, ease of use and efficiency. User experience may be considered subjective in nature to the degree that it is about individual perception and thought with respect to the system. User experience is dynamic as it is constantly modified over time due to changing usage circumstances and changes to individual systems as well as the wider usage context in which they can be found.</p>
+					<h2>Definitions</h2>
+					<hr />
+					<p>The international standard on ergonomics of human system interaction, ISO 9241-210, defines user experience as "a person's perceptions and responses that result from the use or anticipated use of a product, system or service". According to the ISO definition, user experience includes all the users' emotions, beliefs, preferences, perceptions, physical and psychological responses, behaviors and accomplishments that occur before, during and after use. The ISO also list three factors that influence user experience: system, user and the context of use.</p>
+					<p>Note 3 of the standard hints that usability addresses aspects of user experience, e.g. "usability criteria can be used to assess aspects of user experience". The standard does not go further in clarifying the relation between user experience and usability. Clearly, the two are overlapping concepts, with usability including pragmatic aspects (getting a task done) and user experience focusing on users’ feelings stemming both from pragmatic and hedonic aspects of the system. Many practitioners use the terms interchangeably. The term usability pre-dates the term user experience. Part of the reason the terms are often used interchangeably is that, as a practical matter, a user will at minimum require sufficient usability to accomplish a task, while the feelings of the user may be less important, even to the user herself. Since usability is about getting a task done, aspects of user experience like information architecture and user interface can help or hinder a user's experience. If a website has "bad" information architecture and a user has a difficult time finding what they are looking for, then a user will not have an effective, efficient and satisfying search. Usability can essentially be considered a subfield of user experience. Put another way, the feelings of the user generally depend upon having a successful experience in accomplishing the task at hand. Users have been known to use systems with sub-optimal user experiences and even "bad" usability, in order to accomplish their task goals</p>
+					<p>In addition to the ISO standard, there exist several other definitions for user experience. Some of them have been studied by Law et al. According to Jim Miller, principal of Miramontes Computing, user experience "encompasses much more than the traditional 'user interface' issues, such as screen design and command structure. Rather, it's a broad collection of user-centric issues that cut through the full extent of a project."</p>
+					<h2>History</h2>
+					<hr />
+					<p>The term user experience was brought to wider knowledge by Donald Norman in the mid-1990s.He never intended the term "user experience" to be applied only to the affective aspects of usage. A review of his earlier work suggests that the term "user experience" was used to signal a shift to include affective factors, along with the pre-requisite behavioral concerns, which had been traditionally considered in the field. Many usability practitioners continue to research and attend to affective factors associated with end-users, and have been doing so for years, long before the term "user experience" was introduced in the mid-1990s. In an interview in 2007, Norman discusses the widespread use of the term "user experience" and its imprecise meaning as a consequence thereof.</p>
+					<p>The field of user experience represents an expansion and extension of the field of usability, to include the holistic perspective of how a person feels about using a system. The focus is on pleasure and value as well as on performance. The exact definition, framework, and elements of user experience are still evolving</p>
+					<p>User Experience of an interactive product or a web site is usually measured by a number of methods, including questionnaires, focus groups, and other methods. A freely available questionnaire (available in several languages) is the User Experience Questionnaire (UEQ).[13] The development and validation of this questionnaire is described in </p>
+					<p>Google Ngram Viewer shows wide use of the term starting in the 1930s.,[15] "He suggested that more follow-up in the field would be welcomed by the user, and would be a means of incorporating the results of user's experience into the design of new machines." Use of the term in relation to computer software also pre-dates Norman</p>
+					<img src="img/up.png" class="up-pointer"/>
+				</article>
+			
+				<!-- Scrollable Content ends here -->
+			
+				<!-- Resizable starts here -->
+			
+				<article id="tab3">
+					<div id="resizable" class="ui-widget-content">
+						<h3 class="ui-widget-header">Resizable</h3>
+						<p>This div container can be resized by using mouse</p>
+					</div>
+				</article>
+			
+				<!-- Resizable ends here -->
+			
+				<!-- Image Animation starts here -->
+			
+				<article id="tab4">
+					<p>Image animation is done here</p>
+					<div class="slider-holder">
+						<ul>
+							<li><img src="img/one.png" /></li>
+							<li><img src="img/two.jpg" /></li>
+							<li><img src="img/three.jpg" /></li>
+							<li><img src="img/four.jpg" /></li>
+						</ul>
+						<a href="javascript:void(0);" class="prev">Previous</a>
+						<a href="javascript:void(0);" class="next">Next</a>
+					</div>
+				</article>
+			
+				<!-- Image Animation ends here -->
+			
+				<!-- Accordion Panel starts here -->
+			
+				<article id="tab5">
+					<div class="accordion-holder">
+						<div class="accordion-panel">
+							<div class="accordion-header">
+								<a href="#" class="active"> Panel 1 </a>
+							</div>
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							</div>
+						</div>
+						<div class="accordion-panel">
+							<div class="accordion-header">
+								<a href="#"> Panel 2 </a>
+							</div>
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							</div>
+						</div>
+						<div class="accordion-panel">
+							<div class="accordion-header">
+								<a href="#"> Panel 3 </a>
+							</div>
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							</div>
+						</div>
+						<div class="accordion-panel">
+							<div class="accordion-header">
+								<a href="#"> Panel 4 </a>
+							</div>
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							</div>
+						</div>
+					</div>
+				</article>
+			
+				<!-- Accordion panel ends here -->
+			
+				<article id="tab6">
+					<p>Input your CSS in the textarea provided to minify</p>
+					<div class="minify-container">
+						<div class="minify-input">
+							<textarea id="firstCSSContainer" rows="15" cols="70" placeholder="paste your css code here" onchange="cssAddedHere()"></textarea>
+						</div>
+						<div class="minify-input">
+							<button id="minifyMe" type="button" onclick="minifyHere()" class="disableMe">Minify!</button>
+							<a id="downloadMe" class="disableMe" href="">Download</a>
+						</div>
+						<div class="minify-input">
+							<textarea id="secondCSSContainer" oninput="download(this, 'myfilename.css', 'text/css');" rows="15" cols="70" placeholder="click on minify button to see minified version of css" disabled></textarea>
+						</div>
+					</div>
+				</article>
+			
+			</section>
+			
+		</section>
+		<footer>
+			
+		</footer>
+		
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/master.js"></script>
+		<script src="js/rotate.js"></script>
+		<script src="js/scroll.js"></script>
+		<script src="js/resize.js"></script>
+		<script src="js/imageanimate.js"></script>
+		<script src="js/accordionpanel.js"></script>
+		<script src="js/minifycss.js"></script>
+	</body>
+</html>

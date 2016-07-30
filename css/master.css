@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    min-width: 1003px;
+	min-height: 100%;
+}
+
+body {
+    font: 14px/1.4 "Calibri",Arial,Sans-serif;
+	min-height: 100%;
+	position: relative;
+}
+header{
+	background: #157ed2;
+	height: 44px;
+	line-height: 2;
+	color: #fff;
+	padding-left: 20px;
+	font-size: 10px;
+}
+h1{
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+h2{
+	margin-bottom: 10px;
+}
+p {
+    margin-bottom: 10px;
+}
+hr {
+    margin-bottom: 15px;
+}
+h2 {
+    margin-top: 15px;
+}
+textarea{
+    resize: none;
+    margin: 0;
+    border: 0 none;
+	padding: 5px;
+    overflow: hidden;
+	width: 420px;
+}
+footer{
+	bottom: 0;
+	width: 100%;
+	height: 145px;
+	background: #157ed2;
+	font-size: 12px;
+	color: #fff;
+}
+.wrapper {
+	background: white;
+	padding-bottom: 145px;
+	/* padding: 15px; */
+}
+.main_nav{
+	height: 100%;
+	line-height: 44px;
+	background: #0f6cb2;
+	display: inline-block;
+	vertical-align: top;
+}
+ul.tabs {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 160px;
+	outline: 1px solid #0f6cb2;
+}
+ul.tabs li {
+	display: block;
+	text-align: left;
+	/* padding: 0 10px; */
+	cursor: pointer;
+}
+ul.tabs li a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 14px 40px 14px 20px;
+}
+ul.tabs li.active {
+	background: #fff;
+}
+ul.tabs li.active a {
+	color: #0f6cb2;
+}
+.clr {
+	clear: both;
+}
+.main_container{
+	min-height: 100%;
+	height:auto !important;
+	padding: 15px 19px;
+	background: #e3e5e6;
+	display: inline-block;
+	width: 85%;
+}
+.ele_holder {
+    /* padding: 15px 20px; */
+}
+
+.element_holder {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.control_holder {
+    text-align: center;
+}
+
+.rotate_this {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.degrees {
+    font-weight: bold;
+    color: red;
+}
+
+
+/* Resizing */
+#resizable { width: 300px; height: 300px; padding: 0.5em; }
+#resizable h3 { text-align: center; margin: 0; }
+
+.ui-accordion-content-active{
+	height: 20px;
+}
+
+/* Scrollable */
+#tab2{
+    margin: 40px auto;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    position: relative;
+}
+.down-pointer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: .4;
+    cursor: pointer;
+}
+.up-pointer:hover,
+.down-pointer:hover {
+    opacity: 1;
+}
+.up-pointer {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    opacity: .4;
+    cursor: pointer;
+}
+
+/* Accordian Example */
+
+.accordion-holder {
+    padding: 40px 20px;
+}
+.accordion-panel {
+    position: relative;
+    margin-top: -1px;
+}
+.accordion-header  a:link,
+.accordion-header  a:hover,
+.accordion-header  a:visited,
+.accordion-header  a:active {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    background: #00485e;
+}
+.accordion-header {
+    border: 1px solid #d1d1d1;
+     -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.accordion-header a.active {
+     background: #008387;
+     cursor: default;
+}
+.accordion-body {
+    display: none;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-top: none;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius:  0 0 4px 4px;
+}
+
+.accordion-holder .accordion-panel:first-child .accordion-body {
+    display: block;
+}
+.pointer {
+	width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #fff;
+    display: inline-block;
+}
+.pointer.active {
+    width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #fff;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -3px;
+}
+
+
+/* Image slider */
+.slider-holder {
+    padding: 40px 20px;
+    position: relative;
+}
+.slider-holder ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    white-space: nowrap;  
+    overflow: hidden;
+    position: relative; 
+}
+.slider-holder li {
+    width: 100%;
+    height: 250px;
+    max-height: 250px;
+    display: inline-block;
+    position: relative;
+}
+.slider-holder li img {
+    width: 100%;
+    height: 250px;
+    max-height: 250px;
+}
+.prev {
+    position: absolute;
+    top: 155px;
+    left: 40px;
+    color: yellow;
+}
+.next {
+    position: absolute;
+    top: 155px;
+    right: 40px;
+    color: yellow;
+}
+.disabled {
+    color: #e1e1e1;
+    pointer-events: none;
+    cursor: default;
+}
+
+/* Minify css */
+.minify-container{
+	padding: 40px 20px;
+}
+.minify-input{
+	display: table-cell;
+	position: relative;
+	text-align: center;
+	left: 5px;
+	vertical-align: top;
+}
+.minify-input:nth-child(2){
+	width: 100px;
+	padding: 0 70px;
+}
+.minify-input button{
+	left: 65px;
+	width: 100px;
+	height: 25px;
+	border-radius: 4px;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#d2d0d0), to(#f0f0f0));
+	background-image: -moz-linear-gradient(90deg, #d2d0d0 0%, #f0f0f0 100%);
+	margin: 60px 0;
+	cursor: pointer;
+}
+#minifyMe{
+	top: 100px;
+}
+#downloadMe{
+	top: 160px;
+	text-decoration: none;
+    /*display: inline-block; */
+	
+	left: 65px;
+    background: ButtonFace; 
+	color: ButtonText;
+	border-radius: 4px;
+	width: 95px;
+	padding: 2px 20px;
+    border: 2px solid; 
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#d2d0d0), to(#f0f0f0));
+	background-image: -moz-linear-gradient(90deg, #d2d0d0 0%, #f0f0f0 100%);
+}
+.disableMe{
+	color: rgb(128,128,128) !important;
+	cursor: default;
+}
